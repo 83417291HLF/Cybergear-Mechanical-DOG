@@ -1,0 +1,60 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+# Large files (>50MB) - Gitee限制
+CyberGear微电机/上位机软件/CyberGear调试器.zip
+CyberGear微电机/上位机软件/CyberGear调试器/Qt5WebEngineCore.dll
+
+# STM32 / Keil generated outputs (retain source and project configuration)
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.elf
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.build_log.htm
+*.uvguix.*
+*.uvoptx
+*.bak
+*.Bak
+software/sizujixgou1123/MDK-ARM/sizujixgou1123/
+
+# Local OS and editor state
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Duplicate source archive and vendor desktop tool distributions
+/software.zip
+/CyberGear微电机/上位机软件/
+/CyberGear微电机/电机问题汇总/维特固件资源/
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+~$*
